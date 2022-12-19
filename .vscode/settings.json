@@ -1,0 +1,148 @@
+{
+    // Explorer
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    // Git
+    "git.autofetch": true,
+    // Jira
+    "atlascode.jira.jqlList": [
+        {
+            "id": "457a59f9-bdd8-48d3-a549-de59816c8b6d",
+            "enabled": true,
+            "name": "My whoisclicking Issues",
+            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "siteId": "b708771e-5f62-4f2f-8e92-667344c0f83b",
+            "monitor": true
+        },
+        {
+            "id": "3dddb28e-94c7-4606-a43e-16595ecc190c",
+            "enabled": true,
+            "name": "My rucapenlabs Issues",
+            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "siteId": "373118dd-44df-4a43-996c-ffe5f89641dc",
+            "monitor": true
+        }
+    ],
+    "atlascode.jira.lastCreateSiteAndProject": {
+        "siteId": "b708771e-5f62-4f2f-8e92-667344c0f83b",
+        "projectKey": ""
+    },
+    // Kubernetes
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path.windows": "C:\\Users\\bruno\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vscode-kubernetes.minikube-path.windows": "C:\\Users\\bruno\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+        "vscode-kubernetes.helm-path.linux": "/home/bruno/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vscode-kubernetes.kubectl-path.linux": "/home/bruno/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.minikube-path.linux": "/home/bruno/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vs-kubernetes.minikube-show-information-expiration": "2022-12-20T18:25:56.617Z"
+    },
+    // Github
+    "githubPullRequests.createOnPublishBranch": "never",
+    // Protoc
+    "protoc": {
+        "options": [
+            "--proto_path=protos"
+        ]
+    },
+    // Worbench
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.showTabs": true,
+    "workbench.statusBar.visible": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editorAssociations": {
+        "*.wasm": "default"
+    },
+    // Editor
+    "editor.fontSize": 14,
+    "editor.wordWrap": "on",
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.colorDecorators": true,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.formatOnSave": true,
+    "editor.hover.enabled": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": true,
+    "editor.rename.enablePreview": false,
+    // Files
+    "files.trimTrailingWhitespace": true,
+    // Terminal
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontSize": 12,
+    "atlascode.bitbucket.enabled": false,
+    // JavaScript
+    "javascript.updateImportsOnFileMove.enabled": "prompt",
+    // TypeScript
+    "typescript.updateImportsOnFileMove.enabled": "prompt",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // YAML
+    "yaml.maxItemsComputed": 9000,
+    "yaml.schemas": {
+        "file:///c%3A/Users/bruno/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    // JSON
+    // Python
+    // Rust
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    // Solidity
+    "[solidity]": {
+        "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+    },
+    // Markdown
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // Grammarly
+    "grammarly.files.include": [
+        "**/*.txt",
+        "**/*.md"
+    ],
+    // Hardhat
+    "hardhat.telemetry": true,
+    "redhat.telemetry.enabled": true,
+    // Snyk
+    "snyk.advanced.cliPath": "C:\\Users\\bruno\\AppData\\Local\\snyk-ls\\snyk-win.exe",
+    "snyk.yesWelcomeNotification": false,
+    "settingsSync.ignoredSettings": []
+}
