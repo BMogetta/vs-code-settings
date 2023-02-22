@@ -74,6 +74,7 @@
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontFamily": "Hack Nerd Font",
     "atlascode.bitbucket.enabled": false,
     // JavaScript
     "javascript.updateImportsOnFileMove.enabled": "prompt",
